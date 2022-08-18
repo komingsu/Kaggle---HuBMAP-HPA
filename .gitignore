@@ -1,6 +1,7 @@
 
 *.hdf5
-*checkpoint*
 *.jpg
 *.h5
 *.zip
+*checkpoint*
+*checkpoint.ipynb
