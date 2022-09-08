@@ -6,5 +6,7 @@
 * 비전 : 세포와 조직 조직 간의 관계에 대한 이해를 가속화하는 데 도움
 * 목표 : 5개의 인간 장기에 걸쳐 기능 조직 단위(FTU)를 식별하고 분류. FTU를 가능한 한 정확하게 분할하는 것이 중요. 조직 섹션 이미지의 데이터 세트를 사용하여 모델을 구축.
 
-
-## 1. EDA
+## 사용한 방법론
+* UNet + EfficientNetB6
+* DeepLabV3plus + ResNeXt
+* Swin UNETR - [PAPER](https://arxiv.org/pdf/2201.01266.pdf) (도전중)
