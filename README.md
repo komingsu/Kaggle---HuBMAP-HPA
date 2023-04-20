@@ -9,4 +9,4 @@
 ## 사용한 방법론
 * UNet + EfficientNetB6
 * DeepLabV3plus + ResNeXt
-* Swin UNETR - [PAPER](https://arxiv.org/pdf/2201.01266.pdf) (도전중)
+* Swin UNETR - [PAPER](https://arxiv.org/pdf/2201.01266.pdf) 
