@@ -7,6 +7,18 @@
 * 목표 : 5개의 인간 장기에 걸쳐 기능 조직 단위(FTU)를 식별하고 분류. FTU를 가능한 한 정확하게 분할하는 것이 중요. 조직 섹션 이미지의 데이터 세트를 사용하여 모델을 구축.
 
 ## 사용한 방법론
+
+### Structure
 * UNet + EfficientNetB6
-* DeepLabV3plus + ResNeXt
-* Swin UNETR - [PAPER](https://arxiv.org/pdf/2201.01266.pdf) 
+* DeepLabV3plus + Resnet
+* Unet + Swin Transformer
+
+### Loss
+* 1 * Weight Binary Cross Entropy + 0.5 * dice_coef_loss
+
+### Augmentation
+* Flip
+* cell staining, Color
+
+## High Score
+* Unet + Swin Transformer -> 0.69737
